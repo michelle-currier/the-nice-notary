@@ -10,8 +10,11 @@ const nextConfig = {
     config.resolve.alias["@"] = path.resolve(__dirname, "src"); // Ensure it's pointing to 'src'
     return config;
   },
+  experimental: {
+    appDir: true, // Explicitly enable app directory
+  },
 
-  output: "export", // remove when working locally add back to build the static deploy
+  // output: "export", // remove when working locally add back to build the static deploy
 };
 
 export default nextConfig;
