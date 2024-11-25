@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f0cdf4;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #f0cdf4;
+  }
+}
+html {
+  overflow-x: hidden;
+}
+body {
+  color: var(--foreground);
+  background: var(--background);
+  transition-property: opacity, background, transform, filter;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+}
+
+.page-transition {
+  opacity: 0;
+  background: #000;
+  transform: translateY(100px);
+  filter: blur(16px);
+}
+.button-transition {
+  opacity: 0;
+  background: #000;
+  transform: translateX(100px);
+  filter: blur(16px);
+}
+@layer base {
+  html {
+    font-family: "Raleway", sans-serif;
+  }
+}
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+nav ul li a {
+  border-bottom: 0px solid transparent;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid #fff;
+  transition: border-bottom  500ms ease-in-out;
+}
+
+/* carousel */
+@import url("https://fonts.googleapis.com/css2?family=Fauna+One&display=swap");
+.App-header {
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Fauna One", serif;
+  padding-bottom: 2rem;
+}
+h1, h2 {
+  font-family: "Fauna One", serif;
+}
+.carousel-images {
+  position: relative;
+  border-radius: 10px;
+  height: 400px;
+  max-width: 650px;
+  margin: auto;
+  overflow: hidden;
+}
+.carousel-images img {
+  width: 99%;
+  height: 99%;
+  border-radius: 8px;
+  border: #ff00008e solid 2px;
+}
+.slide_direction {
+  display: flex;
+  justify-content: space-between;
+}
+.left,
+.right {
+  background-color: #fb666675;
+  color: #fff;
+  
+  margin: 0 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 10px;
+  height: 25px;
+  width: 25px;
+}
+
+.left {
+  left: 0px;
+  padding: 3px 8px 0px 6px;
+}
+
+.right {
+  right: 0;
+  padding: 3px 6px 0px 4px;
+}
+.carousel-indicator {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.dot {
+  background-color: #333;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.active {
+  background-color: #fa2020;
+}
+
+.scrolling-text-container {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  height: 3.5rem; /* Adjust height based on your text size */
+  margin-top: 1rem;
+}
+
+.scrolling-text {
+  display: inline-block;
+  white-space: nowrap;
+  position: absolute;
+  will-change: transform;
+  font-size: 2.5rem; /* Adjust font size */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
