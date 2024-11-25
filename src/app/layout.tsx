@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Fauna_One, Raleway } from "@next/font/google";
+import { Raleway } from "@next/font/google";
 // import { Roboto } from "@next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
