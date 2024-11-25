@@ -11,7 +11,7 @@ const nextConfig = {
     return config;
   },
 
-  // output: "export", // remove when working locally add back to build the static deploy
+  output: "export", // remove when working locally add back to build the static deploy
 };
 
 export default nextConfig;
