@@ -16,7 +16,7 @@ export default function About() {
       </div>
       <div className="justify-start items-center p-6">
         <p>Add the certs and other credientials here!</p>
-
+        <p>something goes up in here</p>
         <p>
           <a
             href="/"
