@@ -2,12 +2,12 @@
 "use cache";
 import Image from "next/image";
 
-import image1 from "./../images/bulkhead.png";
-import image2 from "./../images/bulkhead_after.png";
-import image3 from "./../images/demo2.jpg";
-import image4 from "./../images/drainageDemo.jpg";
-import image5 from "./../images/pilingsDrivin.jpg";
-import image6 from "./../images/fence.jpg";
+import image1 from "./../../public/images/bulkhead.png";
+import image2 from "./../../public/images/bulkhead_after.png";
+import image3 from "./../../public/images/demo2.jpg";
+import image4 from "./../../public/images/drainageDemo.jpg";
+import image5 from "./../../public/images/pilingsDrivin.jpg";
+import image6 from "./../../public/images/fence.jpg";
 
 const services = [
   {

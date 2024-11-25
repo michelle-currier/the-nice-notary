@@ -10,7 +10,7 @@ const fauna = Fauna_One({
 });
 import Image from "next/image";
 
-import image11 from "./../../images/margaret.jpg";
+import image11 from "./../../../public/images/margaret.jpg";
 // Define the shape of form data
 interface FormData {
   name: string;
@@ -64,18 +64,15 @@ export default function Contact() {
   };
 
   return (
-    <section className=" mx-auto p-6">
+    <section className="w-full p-6">
       <h1
         className={`text-3xl font-bold text-center text-black dark:text-white mb-8 basis-1/2 ${fauna.className}`}
       >
         Contact the Nice Notary today!
       </h1>
 
-      <div className="flex flex-row gap-6">
-        <form
-          onSubmit={handleSubmit}
-          className="space-y-6 basis-full md:basis-1/2"
-        >
+      <div className="flex sm:flex-row flex-col-reverse gap-6">
+        <form onSubmit={handleSubmit} className="space-y-6 basis-1/2">
           <div className="flex flex-col">
             <label
               htmlFor="name"

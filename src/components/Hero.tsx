@@ -9,7 +9,7 @@ const fauna = Fauna_One({
 
 export default function Hero() {
   return (
-    <section className="bg-[url('./../images/pink_shotgun.webp')] bg-cover w-full">
+    <section className="bg-[url('./../../public/images/pink_shotgun.webp')] bg-cover w-full">
       <div className="max-w-7xl mx-auto py-12 px-6 flex flex-col">
         <h1 className={`text-5xl font-bold drop-shadow-sm ${fauna.className}`}>
           Now open in New Orleans!
