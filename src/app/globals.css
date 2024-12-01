@@ -67,64 +67,15 @@ nav ul li a:hover {
 h1, h2 {
   font-family: "Fauna One", serif;
 }
-.carousel-images {
-  position: relative;
-  border-radius: 10px;
-  height: 400px;
-  max-width: 650px;
-  margin: auto;
-  overflow: hidden;
-}
-.carousel-images img {
-  width: 99%;
-  height: 99%;
-  border-radius: 8px;
-  border: #ff00008e solid 2px;
-}
-.slide_direction {
-  display: flex;
-  justify-content: space-between;
-}
-.left,
-.right {
-  background-color: #fb666675;
-  color: #fff;
-  
-  margin: 0 20px;
-  border-radius: 50%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto 10px;
-  height: 25px;
-  width: 25px;
-}
 
-.left {
-  left: 0px;
-  padding: 3px 8px 0px 6px;
+ul.leading-7 {
+  list-style-type: disc;
+  margin-left: 1rem;
 }
-
-.right {
-  right: 0;
-  padding: 3px 6px 0px 4px;
+ul.leading-7 li:first-of-type {
+  list-style-type: none;
+  margin-left: -1rem;
 }
-.carousel-indicator {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-.dot {
-  background-color: #333;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-}
-.active {
-  background-color: #fa2020;
-}
-
 .scrolling-text-container {
   width: 100%;
   overflow: hidden;
