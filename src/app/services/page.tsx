@@ -32,7 +32,7 @@ export default function Services() {
             </li>
             <li>$5 up to 20 pages</li>
             <li>Over 20 additional $0.20 per page</li>
-            <li>Providing scanned copy of signed document, 1 page</li>
+            <li>Providing scanned copy of signed document, 1 page free</li>
             <li>Additional scanned pages, $0.50 per page</li>
           </ul>
         </div>
