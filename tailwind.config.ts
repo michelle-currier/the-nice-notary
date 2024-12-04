@@ -18,6 +18,33 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            'a': {
+              color: 'teal',
+              borderBottom: '2px solid',
+              borderColor: 'teal-400',
+              transition: 'all ease-in-out 0.3s',
+              '&:hover': {
+                color: 'pink-400',
+                borderColor: 'pink-600',
+              },
+            },
+          
+          'Link': {
+            color: 'teal',
+            borderBottom: '2px solid',
+            borderColor: 'teal-400',
+            transition: 'all ease-in-out 0.3s',
+            '&:hover': {
+              color: 'pink-400',
+              borderColor: 'pink-600',
+              },
+            },
+          },
+        },
+      },
     },
   },
   plugins: [],

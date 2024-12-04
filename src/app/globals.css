@@ -20,7 +20,7 @@ body {
   color: var(--foreground);
   background: var(--background);
   transition-property: opacity, background, transform, filter;
-  transition-duration: 500ms;
+  transition-duration: 600ms;
   transition-timing-function: ease-in-out;
 }
 

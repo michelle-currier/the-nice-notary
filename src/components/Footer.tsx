@@ -1,5 +1,5 @@
 import React from "react";
-
+import { TransitionLink } from "@/components/utils/TransitionLink";
 const Footer = () => (
   <div className="mx-auto justify-between max-w-7xl w-full">
     <hr className="w-full border-gray-600 mt-6" />
@@ -11,10 +11,18 @@ const Footer = () => (
             <a
               href="https://mcurrier.com"
               target="_blank"
-              className="text-teal-300 border-teal-300 border-b "
+              aria-label="m. currier designs link"
+              className="text-teal-200 border-teal-400 border-b hover:text-pink-400 hover:border-pink-600 hover:transition-all ease-in-out delay-50 duration-300"
             >
               m.currier designs
             </a>
+          </li>
+          <li>
+            <TransitionLink href="/terms" aria-label="Privacy Policy link">
+              <span className="text-teal-200 border-teal-400 border-b hover:text-pink-400 hover:border-pink-600 hover:transition-all ease-in-out delay-50 duration-300">
+                Privacy Policy
+              </span>
+            </TransitionLink>
           </li>
           {/* <li>
             Framework with&nbsp;
@@ -35,7 +43,7 @@ const Footer = () => (
             >
               Tailwind
             </a>
-          </li> */}
+          </li> 
           <li>
             Transitions with&nbsp;
             <a
@@ -46,7 +54,7 @@ const Footer = () => (
               Hover.dev
             </a>
           </li>
-          {/* <li>
+           <li>
             Deploying from github with&nbsp;
             <a
               href="https://vercel.com/"
