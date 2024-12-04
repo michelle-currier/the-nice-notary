@@ -18,8 +18,8 @@ export default function About() {
       </div>
       <div className="justify-start items-center p-6">
         <p>
-          This Privacy Policy ("Policy") applies to
-          https://www.thenicenotaryllc.com/, and The Nice Notary LLC ("Company")
+          This Privacy Policy ('Policy') applies to
+          https://www.thenicenotaryllc.com/, and The Nice Notary LLC ('Company')
           and governs data collection and usage. For the purposes of this
           Privacy Policy, unless otherwise noted, all references to the Company
           include https://www.thenicenotaryllc.com/. The Company's website is a
