@@ -10,7 +10,7 @@ const fauna = Fauna_One({
 
 export default function About() {
   return (
-    <div className="bg-gray-800 text-white flex flex-col">
+    <div className="bg-gray-800 text-white flex flex-col max-w-screen-lg">
       <div className="justify-start items-center p-6">
         <h2 className={`text-4xl font-bold ${fauna.className}`}>
           Privacy Policy
@@ -18,100 +18,132 @@ export default function About() {
       </div>
       <div className="justify-start items-center p-6">
         <p>
-          This Privacy Policy (&apos;Policy&apos;) applies to
-          https://www.thenicenotaryllc.com/, and The Nice Notary LLC
-          (&apos;Company&apos;) and governs data collection and usage. For the
-          purposes of this Privacy Policy, unless otherwise noted, all
-          references to the Company include https://www.thenicenotaryllc.com/.
-          The Company&apos;s website is an e-commerce site. By using the Company
-          website, you consent to the data practices described in this
-          statement.
+          This Privacy Policy applies to https://www.thenicenotaryllc.com/, and
+          The Nice Notary LLC (&apos;Company&apos;) and governs data collection
+          and usage. For the purposes of this Privacy Policy, unless otherwise
+          noted, all references to the Company include
+          https://www.thenicenotaryllc.com/. The Nice Notary&apos;s website is
+          an information site. By using the Nice Notary website, you consent to
+          the data practices described in this statement.
         </p>
-        <p className="text-xl my-3">Collection of your Personal Information</p>
+        <p className="text-xl my-3">Information We Collect</p>
         <p>
-          In order to better provide you with products and services offered, the
-          Company may collect personally identifiable information, such as your:
+          We may collect personal information necessary to perform notarial acts
+          and provide services to you, such as:
         </p>
         <ul className="list-inside list-disc mb-3">
-          <li>First and last name</li>
-          <li>Mailing address</li>
-          <li>Email address</li>
-          <li>Phone number</li>
+          <li>Name, address, phone number, and email address</li>
+          <li>
+            Government-issued identification details for identity verification
+            purposes
+          </li>
+          <li>
+            Information related to documents being notarized (e.g., type of
+            transaction)
+          </li>
+          <li>
+            Any other information required to complete notarial documentation
+          </li>
+          <li>Communicating with you about our services</li>
         </ul>
-        <p className="mb-3">
-          If you purchase the Company&apos;s products and services, we collect
-          billing and credit card information. This information is used to
-          complete the purchase transaction.
-        </p>
+        <p className="text-xl my-3">How We Use Your Information</p>
+        <ul className="list-inside list-disc mb-3">
+          <li>
+            Performing requested notarizations in accordance with Louisiana
+            Revised Statutes Title 35
+          </li>
+          <li>Maintaining notary logs as required by Louisiana law</li>
+          <li>Communicating with you about our services</li>
+        </ul>
+        <p className="text-xl my-3">Sharing of Information</p>
         <p>
-          We do not collect any personal information about you unless you
-          voluntarily provide it to us. However, you may be required to provide
-          certain personal information to us when you elect to use certain
-          products or services. These may include: (a) registering for an
-          account; (b) entering a sweepstakes or contest sponsored by us or one
-          of our partners; (c) signing up for special offers from selected third
-          parties; (d) sending us an email message; (e) submitting your credit
-          card or other payment information when ordering and purchasing
-          products and services. To wit, we will use your information for, but
-          not limited to, communicating with you in relation to services and/or
-          products you have requested from us. We also may gather additional
-          personal or non-personal information in the future.
-        </p>
-        <p className="text-xl my-3">Use of your Personal Information</p>
-        <p className="mb-3">
-          The Company collects and uses your personal information in the
-          following ways:
+          We do not sell or share your personal information with third parties,
+          except in the following cases:
         </p>
         <ul className="list-inside list-disc mb-3">
-          <li>to operate and deliver the services you have requested</li>
-          <li>
-            to provide you with information, products, or services that you
-            request from us
-          </li>
-          <li>to provide you with notices about your account</li>
-          <li>
-            to carry out the Company&apos;s obligations and enforce our rights
-            arising from any contracts entered
-          </li>
-          <li>
-            to notify you about changes to our{" "}
-            <Link href="https://www.thenicenotaryllc.com/">
-              https://www.thenicenotaryllc.com/
-            </Link>{" "}
-            or any products or services
-          </li>
-          <li>
-            in any other way we may describe when you provide the information
-          </li>
-          <li>for any other purpose with your consent.</li>
+          <li>To comply with legal obligations, subpoenas, or court orders</li>
+          <li>To prevent fraud, abuse, or harm to our business or others</li>
+          <li>With your explicit consent</li>
         </ul>
+        <p className="text-xl my-3">Your Privacy Rights</p>
         <p>
-          The Company may also use your personally identifiable information to
-          inform you of other products or services available from the Company
-          and its affiliates.
+          As a Louisiana resident, you have certain rights regarding your
+          personal information. These include:
         </p>
-        <p className="text-xl my-3">Sharing Information with Third Parties</p>
-        <p className="mb-3">
-          The Company does not sell, rent, or lease its customer lists to third
-          parties.
-        </p>
-        <p className="mb-3">
-          The Company may share data with trusted partners to help perform
-          statistical analysis, send you email or postal mail, provide customer
-          support, or arrange for deliveries. All such third parties are
-          prohibited from using your personal information except to provide
-          these services to the Company, and they are required to maintain the
-          confidentiality of your information.
-        </p>
+        <ul className="list-inside list-disc mb-3">
+          <li>
+            The right to request access to the personal information we hold
+            about you
+          </li>
+          <li>
+            The right to request corrections or updates to your personal
+            information
+          </li>
+          <li>
+            The right to request deletion of your personal information, subject
+            to legal exceptions
+          </li>
+        </ul>
+        <p className="text-xl mb-3">Legal Exceptions to Deletion Requests</p>
+        <p>We may retain personal information when it is necessary to:</p>
+        <ul className="list-inside list-disc m-b3">
+          <li>
+            Exercise free speech, ensure the right of another consumer to
+            exercise his or her right of free speech, or exercise another right
+            provided for by law;
+          </li>
+          <li>
+            Comply with applicable electronic communications or data privacy
+            laws;
+          </li>
+          <li>
+            Engage in public or peer-reviewed scientific, historical, or
+            statistical research in the public interest that adheres to all
+            other applicable ethics and privacy laws, when deletion of the
+            information would likely render impossible or seriously impair the
+            achievement of such research;
+          </li>
+          <li>
+            Enable solely internal uses that are reasonably aligned with your
+            expectations based on your relationship with us;
+          </li>
+          <li>
+            Comply with an existing legal obligation, including those under
+            Louisiana Revised Statutes Title 35; or
+          </li>
+          <li>
+            Otherwise use your personal information, internally, in a lawful
+            manner that is compatible with the context in which you provided the
+            information.
+          </li>
+        </ul>
+        <p className="text-xl my-3">Security of Your Information</p>
+
         <p>
-          The Company may disclose your personal information, without notice, if
-          required to do so by law or in the good faith belief that such action
-          is necessary to: (a) conform to the edicts of the law or comply with
-          legal process served on the Company or the site; (b) protect and
-          defend the rights or property of the Company; and/or (c) act under
-          exigent circumstances to protect the personal safety of users of the
-          Company, or the public.
+          We take reasonable measures to protect your personal information from
+          unauthorized access, use, or disclosure. However, no method of
+          transmission or storage is completely secure, and we cannot guarantee
+          absolute security.
         </p>
+
+        <p className="text-xl my-3">Updates to This Policy</p>
+        <p>
+          We may update this Privacy Policy periodically to reflect changes in
+          legal requirements or our practices. The updated policy will be posted
+          on our website with the effective date.
+        </p>
+
+        <p className="text-xl my-3">Contact Us</p>
+        <p>
+          If you have questions or concerns about this Privacy Policy or how we
+          handle your information, please contact us at:
+        </p>
+        <Link
+          href="mailto:theNiceNotaryLLC@gmail.com"
+          className="text-teal-200 border-teal-400 border-b hover:text-pink-400 hover:border-pink-600 hover:transition-all ease-in-out delay-50 duration-300"
+        >
+          theNiceNotaryLLC@gmail.com
+        </Link>
       </div>
     </div>
   );

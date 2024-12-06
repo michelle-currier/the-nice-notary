@@ -64,7 +64,7 @@ export default function Contact() {
   };
 
   return (
-    <section className="w-full p-6">
+    <section className="w-full p-6 max-w-screen-lg">
       <h1
         className={`text-3xl font-bold text-center text-black dark:text-white mb-8 basis-1/2 ${fauna.className}`}
       >
@@ -174,7 +174,7 @@ export default function Contact() {
           Or, send us an email directly at{" "}
           <a
             href="mailto:thenicenotaryllc@gmail.com"
-            className="text-blue-600 dark:text-teal-300 underline"
+            className="hover:text-blue-600 text-teal-300 underline"
           >
             theNiceNotaryLLC@gmail.com
           </a>

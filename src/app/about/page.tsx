@@ -9,7 +9,7 @@ const fauna = Fauna_One({
 });
 export default function About() {
   return (
-    <div className="bg-gray-800 text-white flex flex-col">
+    <div className="bg-gray-800 text-white flex flex-col max-w-screen-lg">
       <div className="justify-start items-center p-6">
         <h2 className={`text-4xl font-bold ${fauna.className}`}>About</h2>
       </div>

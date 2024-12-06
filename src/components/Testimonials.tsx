@@ -3,19 +3,22 @@
 
 const testimonials = [
   {
-    name: "John Doe",
+    name: "Aimee",
     role: "Client",
-    testimonial: "This service is fantastic! Highly recommend to anyone.",
+    testimonial:
+      "Margaret was a delight to work with! She had immediate availability and drove to us on a Saturday to help us complete several docs we needed notarized. It was so very convenient to have her come to us, and she was professional, friendly, & charged a fair price. I will use her again for sure if I need notary services!",
   },
   {
-    name: "Jane Smith",
-    role: "xyz Construction",
-    testimonial: "Exceptional experience, the team was incredibly helpful.",
+    name: "Caroline",
+    role: "Client",
+    testimonial:
+      "Best and Easiest Notary Experience Ever! Very nice and well prepared; also helped me understand and review my document. Extremely patient, comfortable and flexible!! 5 Stars 🌟🌟🌟🌟🌟!",
   },
   {
-    name: "Sam Wilson",
+    name: "Joann",
     role: "Client",
-    testimonial: "A+ service and support. I will definitely use it again.",
+    testimonial:
+      "Extremely painless, easy, and fast experience. Was able to quickly schedule a time that was convenient for me. Also super affordable! 10/10 A+++++ notary!",
   },
 ];
 
