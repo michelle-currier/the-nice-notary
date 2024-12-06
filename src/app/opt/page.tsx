@@ -1,5 +1,5 @@
 "use client";
-import { useState, ChangeEvent, MouseEvent } from "react";
+import { useState } from "react";
 
 import { Fauna_One } from "@next/font/google";
 
@@ -8,10 +8,10 @@ const fauna = Fauna_One({
   subsets: ["latin"],
 });
 
-type Status = {
-  type: "sucess" | "error" | "";
-  message: string;
-};
+// type Status = {
+//   type: "sucess" | "error" | "";
+//   message: string;
+// };
 
 export default function OptPage() {
   const [email, setEmail] = useState("");
