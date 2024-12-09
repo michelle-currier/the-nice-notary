@@ -44,7 +44,8 @@ export default function Certs() {
         {certsInfo.map((item, index) => (
           <div
             key={index}
-            className="bg-white shadow-lg rounded-lg overflow-hidden"
+            className="bg-white border-teal-600 border shadow-[0px_9px_93px_10px_rgba(52,_255,_236,_0.2)]
+            rounded-lg overflow-hidden"
           >
             <Image
               src={item.image}
