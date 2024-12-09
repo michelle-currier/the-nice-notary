@@ -10,7 +10,10 @@ export default function Services() {
       <h1 className={`text-4xl my-8 ${fauna.className}`}>Notary Fees</h1>
 
       <div className="flex flex-col gap-8 lg:flex-row">
-        <div className="basis-1/3 rounded-md border border-slate-600 p-6">
+        <div
+          className="basis-1/3 bg-slate-800 rounded-md border border-slate-600 p-6 shadow-[0px_9px_93px_10px_rgba(255,_52,_255,_0.2)]
+"
+        >
           <ul className="leading-7">
             <li>
               <b className="text-xl text-teal-200">Signature Fees:</b>
@@ -25,7 +28,10 @@ export default function Services() {
             </li>
           </ul>
         </div>
-        <div className="basis-1/3 rounded-md border border-slate-600 p-6">
+        <div
+          className="basis-1/3 bg-slate-800 rounded-md border border-slate-600 p-6 shadow-[0px_9px_93px_10px_rgba(52,_255,_236,_0.2)]
+"
+        >
           <ul className="leading-7">
             <li>
               <b className="text-xl text-purple-300">Printing/Scanning Fees:</b>
@@ -36,7 +42,10 @@ export default function Services() {
             <li>Additional scanned pages, $0.50 per page</li>
           </ul>
         </div>
-        <div className="basis-1/3 rounded-md border border-slate-600 p-6">
+        <div
+          className="basis-1/3 bg-slate-800 rounded-md border border-slate-600 p-6 shadow-[0px_9px_93px_10px_rgba(102,_52,_255,_0.2)]
+"
+        >
           <ul className="leading-7">
             <li>
               <b className="text-xl text-pink-300">

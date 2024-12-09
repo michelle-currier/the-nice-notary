@@ -50,7 +50,7 @@ export default function ActionAreaCard() {
         {services.map((item, index) => (
           <div
             key={index}
-            className="bg-white shadow-lg rounded-lg overflow-hidden"
+            className="bg-white rounded-lg overflow-hidden shadow-[0px_9px_93px_10px_rgba(255,_52,_255,_0.2)]"
           >
             <Image
               src={item.image}

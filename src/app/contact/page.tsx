@@ -155,7 +155,8 @@ export default function Contact() {
             layout="responsive" // Adjust this to suit your layout
             width={500} // Replace with actual width
             height={500} // Replace with actual height
-            className="rounded-md mt-7"
+            className="rounded-md mt-7 shadow-[0px_20px_207px_10px_rgba(255,_52,_255,_0.2)]
+            "
           />
         </div>
       </div>
