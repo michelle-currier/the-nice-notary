@@ -13,8 +13,9 @@ const raleway = Raleway({
 });
 
 export const metadata: Metadata = {
-  title: "Small Business Promotion",
-  description: "Landing page for promoting a small business",
+  title: "The Nice Notary",
+  description:
+    "MOBILE Notary for the greater New Orleans area. Notarize signatures and so much more!",
 };
 
 export default function RootLayout({
