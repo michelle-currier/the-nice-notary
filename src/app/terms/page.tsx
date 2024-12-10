@@ -145,9 +145,6 @@ export default function About() {
           theNiceNotaryLLC@gmail.com
         </Link>
       </div>
-      <div className="justify-start items-center p-6">
-        <h2 className={`text-4xl font-bold ${fauna.className}`}>Opt</h2>
-      </div>
     </div>
   );
 }

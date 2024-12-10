@@ -26,13 +26,13 @@ body {
 
 .page-transition {
   opacity: 0;
-  background: #000;
+  background: #1f2937;
   transform: translateY(100px);
   filter: blur(16px);
 }
 .button-transition {
   opacity: 0;
-  background: #000;
+  background: #1f2937;
   transform: translateX(100px);
   filter: blur(16px);
 }
