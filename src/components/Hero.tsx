@@ -20,12 +20,13 @@ export default function Hero() {
           MOBILE Notary for the greater New Orleans area. Notarize signatures
           and so much more!
         </h2>
-        <p className="text-lg mb-4 drop-shadow-sm">
+        <p className="text-lg mb-4 text-slate-700">
           Available nights and weekends too! I can print your document and come
           to you!{" "}
         </p>
-        <p className="text-lg mb-4 drop-shadow-sm">
-          Email me below to schedule an appointment.
+        <p className="text-lg mb-4 text-slate-700">
+          Email me below to schedule an appointment. <br /> Call or text at{" "}
+          <a href="tel:504-500-3464">504-500-3464</a>
         </p>
         <div className="flex flex-row">
           <TransitionButton href="/contact">

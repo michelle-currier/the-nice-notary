@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Fauna_One } from "@next/font/google";
 import image1 from "./../../public/images/notaryCert.jpg";
 import image2 from "./../../public/images/Commission.jpg";
+import image3 from "./../../public/images/certifiedNotary.png";
 
 const certsInfo = [
   {
@@ -12,9 +13,16 @@ const certsInfo = [
     image: image1,
   },
   {
-    name: "Commionssion",
-    desc: "Commionssion",
+    name: "Commission Certificate",
+    desc: "Commission Certificate",
     image: image2,
+  },
+  {
+    name: "National Notary Association",
+    desc: "Link to the signing agent information",
+    image: image3,
+    link: "https://www.signingagent.com/profile/161745133",
+    linkText: "Certified Notary Details",
   },
 ];
 
@@ -58,6 +66,9 @@ export default function Certs() {
                 {item.name}
               </h3>
               <p className="text-gray-600">{item.desc}</p>
+              <a href={item.link} target="_blank" className="text-teal-700">
+                {item.linkText}
+              </a>
             </div>
           </div>
         ))}

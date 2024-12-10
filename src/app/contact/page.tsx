@@ -178,6 +178,14 @@ export default function Contact() {
             className="hover:text-blue-600 text-teal-300 underline"
           >
             theNiceNotaryLLC@gmail.com
+          </a>{" "}
+          <br />
+          Phone number:{" "}
+          <a
+            href="tel:504-500-3464"
+            className="hover:text-blue-600 text-teal-300 underline"
+          >
+            +1 (504)-500-3464
           </a>
         </p>
       </div>
