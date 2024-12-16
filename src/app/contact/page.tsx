@@ -143,7 +143,7 @@ export default function Contact() {
           </div>
           <button
             type="submit"
-            className="w-full bg-zinc-900 dark:bg-white text-white dark:text-black p-3 rounded-md font-bold hover:bg-zinc-700 dark:hover:bg-zinc-200 transition"
+            className="w-full border border-teal-500 hover:border-pink-400 bg-teal-500 text-white p-3 rounded-full font-bold hover:bg-teal-600 transition"
           >
             Send Message
           </button>
@@ -175,7 +175,7 @@ export default function Contact() {
           Or, send us an email directly at{" "}
           <a
             href="mailto:thenicenotaryllc@gmail.com"
-            className="hover:text-blue-600 text-teal-300 underline"
+            className="hover:text-purple-400 text-teal-300 underline"
           >
             theNiceNotaryLLC@gmail.com
           </a>{" "}
@@ -183,7 +183,7 @@ export default function Contact() {
           Phone number:{" "}
           <a
             href="tel:504-500-3464"
-            className="hover:text-blue-600 text-teal-300 underline"
+            className="hover:text-purple-400 text-teal-300 underline"
           >
             +1 (504)-500-3464
           </a>

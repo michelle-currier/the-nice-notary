@@ -52,9 +52,11 @@ nav ul li a {
   border-bottom: 0px solid transparent;
 }
 nav ul li a:hover {
-  border-bottom: 2px solid #fff;
   transition: border-bottom  500ms ease-in-out;
 }
+/* button:hover {
+  margin: -1px -1px -1px -1px ;
+} */
 
 /* carousel */
 @import url("https://fonts.googleapis.com/css2?family=Fauna+One&display=swap");

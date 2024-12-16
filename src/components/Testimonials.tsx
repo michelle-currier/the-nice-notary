@@ -1,6 +1,3 @@
-// import React from "react";
-// import { Card, CardContent, Typography, Grid } from "@mui/material";
-
 const testimonials = [
   {
     name: "Aimee",
@@ -25,7 +22,7 @@ const testimonials = [
 const Testimonials = () => (
   <div className="mx-auto justify-between max-w-7xl w-full ">
     <hr className="border-teal-700 my-6 mx-auto w-full" />
-    <h4 className="text-4xl font-bold text-center mb-8">Testimonials</h4>
+    <h3 className="text-4xl font-bold text-center mb-8">Testimonials</h3>
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-6">
       {testimonials.map((item, index) => (
         <div
