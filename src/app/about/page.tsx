@@ -9,11 +9,11 @@ const fauna = Fauna_One({
 });
 export default function About() {
   return (
-    <div className="bg-gray-800 text-white flex flex-col max-w-screen-lg">
-      <div className="justify-start items-center p-6">
+    <div className="section p-6 max-w-screen-lg">
+      <div className="justify-start items-center">
         <h2 className={`text-4xl font-bold ${fauna.className}`}>About</h2>
       </div>
-      <div className="justify-start items-center p-6">
+      <div className="justify-start items-center">
         <Certs />
       </div>
     </div>

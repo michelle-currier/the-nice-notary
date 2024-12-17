@@ -7,7 +7,7 @@ const fauna = Fauna_One({
 export default function Services() {
   return (
     <div className="section p-6 max-w-screen-lg">
-      <h1 className={`text-4xl my-8 ${fauna.className}`}>Notary Fees</h1>
+      <h1 className={`text-4xl mb-10 ${fauna.className}`}>Notary Fees</h1>
 
       <div className="flex flex-col gap-8 lg:flex-row">
         <div

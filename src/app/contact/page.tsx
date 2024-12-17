@@ -66,7 +66,7 @@ export default function Contact() {
   return (
     <section className="w-full p-6 max-w-screen-lg">
       <h1
-        className={`text-3xl font-bold text-center text-black dark:text-white mb-8 basis-1/2 ${fauna.className}`}
+        className={`text-4xl font-bold text-black dark:text-white mb-8 basis-1/2 ${fauna.className}`}
       >
         Contact the Nice Notary today!
       </h1>
