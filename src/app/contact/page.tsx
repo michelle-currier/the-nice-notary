@@ -66,7 +66,7 @@ export default function Contact() {
   return (
     <section className="w-full p-6 max-w-screen-lg">
       <h1
-        className={`text-4xl font-bold text-black dark:text-white mb-8 basis-1/2 ${fauna.className}`}
+        className={`text-4xl font-bold text-whitemb-8 basis-1/2 ${fauna.className}`}
       >
         Contact the Nice Notary today!
       </h1>
@@ -74,10 +74,7 @@ export default function Contact() {
       <div className="flex sm:flex-row flex-col-reverse gap-6">
         <form onSubmit={handleSubmit} className="space-y-6 basis-1/2">
           <div className="flex flex-col">
-            <label
-              htmlFor="name"
-              className="text-sm font-medium text-black dark:text-white"
-            >
+            <label htmlFor="name" className="text-sm font-medium text-white">
               Your Name
             </label>
             <input
@@ -86,15 +83,12 @@ export default function Contact() {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              className="mt-2 p-3 border border-gray-300 dark:border-zinc-700 rounded-md dark:bg-black dark:text-white"
+              className="mt-2 p-3 border border-zinc-700 rounded-md bg-black text-white"
               required
             />
           </div>
           <div className="flex flex-col">
-            <label
-              htmlFor="email"
-              className="text-sm font-medium text-black dark:text-white"
-            >
+            <label htmlFor="email" className="text-sm font-medium text-white">
               Your Email
             </label>
             <input
@@ -103,15 +97,12 @@ export default function Contact() {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              className="mt-2 p-3 border border-gray-300 dark:border-zinc-700 rounded-md dark:bg-black dark:text-white"
+              className="mt-2 p-3 border border-zinc-700 rounded-md bg-black text-white"
               required
             />
           </div>
           <div className="flex flex-col">
-            <label
-              htmlFor="phone"
-              className="text-sm font-medium text-black dark:text-white"
-            >
+            <label htmlFor="phone" className="text-sm font-medium text-white">
               Your Phone
             </label>
             <input
@@ -120,15 +111,12 @@ export default function Contact() {
               name="phone"
               value={formData.phone}
               onChange={handleChange}
-              className="mt-2 p-3 border border-gray-300 dark:border-zinc-700 rounded-md dark:bg-black dark:text-white"
+              className="mt-2 p-3 border border-zinc-700 rounded-md bg-black text-white"
               required
             />
           </div>
           <div className="flex flex-col">
-            <label
-              htmlFor="message"
-              className="text-sm font-medium text-black dark:text-white"
-            >
+            <label htmlFor="message" className="text-sm font-medium text-white">
               Your Message
             </label>
             <textarea
@@ -137,7 +125,7 @@ export default function Contact() {
               value={formData.message}
               onChange={handleChange}
               rows={5}
-              className="mt-2 p-3 border border-gray-300 dark:border-zinc-700 rounded-md dark:bg-black dark:text-white"
+              className="mt-2 p-3 border border-zinc-700 rounded-md bg-black text-white"
               required
             />
           </div>
@@ -171,7 +159,7 @@ export default function Contact() {
       )}
 
       <div className="mt-12 text-center">
-        <p className="text-sm text-black dark:text-white">
+        <p className="text-sm text-white">
           Or, send us an email directly at{" "}
           <a
             href="mailto:thenicenotaryllc@gmail.com"

@@ -7,18 +7,18 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #f0cdf4;
   }
-}
+} */
 html {
   overflow-x: hidden;
 }
 body {
-  color: var(--foreground);
-  background: var(--background);
+  color: var(--background);
+  background: var(--foreground);
   transition-property: opacity, background, transform, filter;
   transition-duration: 600ms;
   transition-timing-function: ease-in-out;
