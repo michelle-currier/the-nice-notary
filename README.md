@@ -52,6 +52,4 @@ After push, the site should be triggered to deploy via Vercel
 
 ## TODO
 
-- Content Managment System
-- Styling
-- Email for arbitrary addresses
+- Email for capcha

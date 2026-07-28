@@ -23,7 +23,7 @@ export default function Services() {
               $10 for each additional document with the same signer per visit
             </li>
             <li>
-              Mobile charges in New Orleans metro area: $0 to $20 depending on
+              Mobile charges in New Orleans metro area: $0 to $50 depending on
               day/time/ location
             </li>
           </ul>
@@ -52,11 +52,10 @@ export default function Services() {
                 Preparation of legal documents:
               </b>
             </li>
-            <li>Power of attorney, $40</li>
-            <li>Act of Sale (car), $20</li>
-            <li>Contract, $60</li>
-            <li>Will, $100</li>
-            <li>Hourly rate, $50 per hour</li>
+            <li>Power of attorney, $60 and up</li>
+            <li>Notarize Title with Bill of Sale, $60</li>
+            <li>Preparation of Affidavit (up to 2 pages) $60</li>
+            <li>Hourly Rate $60 per hour (Contracts, Wills, Etc.)</li>
           </ul>
         </div>
       </div>
